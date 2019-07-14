@@ -12,21 +12,24 @@ The general idea behind the project is a slot machine game that mimics player an
 
 There are three classes in the program: Player, SlotMachine, and Casino. Casino acts as the central brain of the game, making the SlotMachine class instances and the Player class instances interact with each other. Under the spin_wheels() method of a SlotMachine object, there is be a random symbol generator and a selection algorithm for each reel on the slot machine. Probability of certain symbol being drawn will be set based on the player’s bet amount.
 
+**To run the game**, simply execute the ye_slot_machine_game.py file. The on-screen instructions will guide you through the game. There are two special guests in the casino, Jupyter Notebook who lives in Rm 8888, and Hello World, who lives in Rm 1234, just saying...
+
+Have fun!
+---------
+
 Here is a break-down of the three classes:
 
-Player (username, rm_num, balance = 0)
-
-  Attributes:
-  
-    -	balance
+1. Player (username, rm_num, balance = 0)
+ -Attributes:
+  -balance
     
-  Methods:
+ -Methods:
     -	set_balance(amount)
     -	deposit(amount)
     -	withdraw(amount)
 
 
-SlotMachine (player, jackpot = 1000000)
+2. SlotMachine (player, jackpot = 1000000)
 
   Attributes:
   
