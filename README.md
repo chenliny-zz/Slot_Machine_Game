@@ -20,37 +20,38 @@ Have fun!
 Here is a break-down of the three classes:
 
 1. Player (username, rm_num, balance = 0)
- - Attributes:
-  - balance
+   - Attributes:
+     - balance
     
- - Methods:
-   -	set_balance(amount)
-   -	deposit(amount)
-   -	withdraw(amount)
+   - Methods:
+     -	set_balance(amount)
+     -	deposit(amount)
+     -	withdraw(amount)
+
 
 
 2. SlotMachine (player, jackpot = 1000000)
-  - Attributes:
-    -	reels
+   - Attributes:
+     -	reels
     
-  - Static method:
-    -	center_message(text, width)
+   - Static method:
+     -	center_message(text, width)
     
-  - Methods:
-    -	spin_wheels(bet_amount, symbol_pool)
-    -	pay_out(reels)
+   - Methods:
+     -	spin_wheels(bet_amount, symbol_pool)
+     -	pay_out(reels)
+    
     
 3. Casino (player)
-
-  - Attributes: 
-    -	guest_list
-    -	menu options
-    -	bet_amount options
+   - Attributes: 
+     -	guest_list
+     -	menu options
+     -	bet_amount options
  
-  - Static method:
-    -	center_message(text, width)
+   - Static method:
+     -	center_message(text, width)
 
-  - Methods:
-    -	display_menu()
-    -	verify_guest(username, passcode)
-    -	start()
+   - Methods:
+     -	display_menu()
+     -	verify_guest(username, passcode)
+     -	start()
