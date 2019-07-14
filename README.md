@@ -21,7 +21,6 @@ Player (username, rm_num, balance = 0)
     -	balance
     
   Methods:
-  
     -	set_balance(amount)
     -	deposit(amount)
     -	withdraw(amount)
