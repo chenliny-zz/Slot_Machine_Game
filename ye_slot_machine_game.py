@@ -130,12 +130,10 @@ class Casino:
         self.slot_machine = SlotMachine(self.player)
 
         # The user_list attribute of the Casino class used for user verification
-        # The casino gives its guests $50 credit to start with
+        # The casino gives its registered guests $50 credit to start with
         self.guest_list = {
-            "": {"rm_num": 1234, "Balance": 50},
-            "tolu adesanya": {"rm_num": 1234, "Balance": 50},
-            "swati akella": {"rm_num": 1234, "Balance": 50},
-            "chenlin ye": {"rm_num": 1234, "Balance": 50}
+            "Jupyter Notebook": {"rm_num": 8888, "Balance": 50},
+            "Hello World": {"rm_num": 1234, "Balance": 50},
         }
 
         # Menu options
@@ -199,7 +197,7 @@ class Casino:
         """Function to start the game"""
 
         if self.verify_guest(self.player.username, self.player.rm_num) == "Name mismatch":
-            print("Hello {}, seems like you are a visitor to our casino. Welcome!".format(self.player.username.upper()),
+            print("Hi {}, seems like you are a visitor to our casino. Welcome!".format(self.player.username.upper()),
                 "A new visitor account with a cmplementary balance of $10 had been created for you.")
             self.player.set_balance = 10
         elif self.verify_guest(self.player.username, self.player.rm_num) == "Room Number mismatch":
