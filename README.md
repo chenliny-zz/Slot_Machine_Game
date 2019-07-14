@@ -2,7 +2,9 @@
 
 ***
 Chenlin Ye
+
 OOP Sample Project
+
 chenliny@berkeley.edu
 ***
 
@@ -13,30 +15,48 @@ There are three classes in the program: Player, SlotMachine, and Casino. Casino 
 Here is a break-down of the three classes:
 
 Player (username, rm_num, balance = 0)
+
   Attributes:
+  
     -	balance
+    
   Methods:
+  
     -	set_balance(amount)
     -	deposit(amount)
     -	withdraw(amount)
 
+
 SlotMachine (player, jackpot = 1000000)
+
   Attributes:
+  
     -	reels
+    
   Static method:
+  
     -	center_message(text, width)
+    
   Methods:
+  
     -	spin_wheels(bet_amount, symbol_pool)
     -	pay_out(reels)
 
+
 Casino (player)
-	Attributes:
+
+  Attributes:
+  
     -	guest_list
     -	menu options
     -	bet_amount options
+    
   Static method:
+  
     -	center_message(text, width)
+    
   Methods:
+  
     -	display_menu()
     -	verify_guest(username, passcode)
     -	start()
