@@ -42,6 +42,7 @@ Here is a break-down of the three classes:
      -	pay_out(reels)
     
     
+    
 3. Casino (player)
    - Attributes: 
      -	guest_list
@@ -53,5 +54,6 @@ Here is a break-down of the three classes:
 
    - Methods:
      -	display_menu()
-     -	verify_guest(username, passcode)
+     -	verify_guest(username, rm_num)
+     -   create_account(username, rm_num)
      -	start()
