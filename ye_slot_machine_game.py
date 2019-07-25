@@ -298,23 +298,30 @@ class Casino:
 
 
 # Initiate the game here
-while True:
-    guest_name = input("Please input Guest Name: ").lower()
-    if guest_name.isdigit() or guest_name == "":
-        print("Please enter a valid name")
-        continue
-    else:
-        break
 
-while True:
-    try:
-        guest_rm_num = int(input("Please input room number: "))
-    except:
-        print("please enter a valid room number")
-        continue
-    else:
-        break
+def main():
+    """Initiates the game"""
+    
+    while True:
+        guest_name = input("Please input Guest Name: ").lower()
+        if guest_name.isdigit() or guest_name == "":
+            print("Please enter a valid name")
+            continue
+        else:
+            break
 
-player = Player(guest_name, guest_rm_num)
-game = Casino(player)
-game.start()
+    while True:
+        try:
+            guest_rm_num = int(input("Please input room number: "))
+        except:
+            print("please enter a valid room number")
+            continue
+        else:
+            break
+
+    player = Player(guest_name, guest_rm_num)
+    game = Casino(player)
+    game.start()
+
+if __name__ == '__main__':
+    main()
