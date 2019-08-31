@@ -4,8 +4,6 @@
 Chenlin Ye
 
 OOP Sample Project
-
-chenliny@berkeley.edu
 ***
 
 The general idea behind the project is a slot machine game that mimics player and slot machine interactions in a casino. When the player initiates the game, he/she would need to input his/her name and room number for verification. If the player is a verified guest, he/she will have a $50 starting balance. If the player is a visitor, he/she will have $10 starting balance. The player can then choose what actions to take; corresponding consequences will be reflected in the player’s account. 
