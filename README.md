@@ -1,4 +1,4 @@
-# OOP_Slot_Machine_Game
+# The Slot Machine Game
 
 ***
 Chenlin Ye
